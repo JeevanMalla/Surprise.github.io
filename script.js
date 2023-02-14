@@ -23,8 +23,7 @@ document.querySelector(".check").addEventListener("click", function () {
   } else if (guess == secret) {
     document.querySelector(".number").textContent = secret;
     document.querySelector("body").style.backgroundImage = "url(220904.jpg)";
-    document.querySelector(".message").textContent =
-      "I Love You Too Bujjamma!!!";
+    document.querySelector(".message").textContent = "I Love You ❤️❤️❤️!!!";
     if (score > highscore) {
       highscore = score;
       document.querySelector(".highscore").textContent = score;
