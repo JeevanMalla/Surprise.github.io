@@ -9,7 +9,7 @@ const reset = function () {
   document.querySelector("body").style.backgroundImage = "";
   document.querySelector(".guess").value = "";
   document.querySelector(".number").textContent = "?";
-  secret = Math.trunc(Math.random() * 20) + 1;
+  secret = 8;
 };
 document.querySelector(".again").addEventListener("click", reset);
 document.querySelector(".check").addEventListener("click", function () {
